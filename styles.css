@@ -19,7 +19,6 @@ header {
 }
 
 h1 {
-    color: #333;
     font-size: 2em;
     margin-bottom: 20px;
 }
@@ -39,7 +38,6 @@ section {
 
 #country-input {
     outline: none;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
 }
 
 #submit-btn {
