@@ -24,7 +24,7 @@ h1 {
     font-size: 2em;
     margin-bottom: 20px;
 }
-section:first-of-type {
+section {
     margin-bottom: 30px;
     text-align: center;
 }
@@ -38,7 +38,7 @@ section:first-of-type {
     font-size: 1em;
 }
 
-#country-input:focus {
+#country-input {
     outline: none;
     border-color: #007bff;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
@@ -55,14 +55,12 @@ section:first-of-type {
     margin-left: 10px;
 }
 
-#submit-btn:hover {
+#submit-btn {
     background-color: #0056b3;
 }
 #country-info, #bordering-countries {
     background-color: white;
     padding: 20px;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
 
